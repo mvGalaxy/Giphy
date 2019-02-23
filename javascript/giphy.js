@@ -541,7 +541,7 @@
             return result;
         }
 
-        var retrievedImgs = await doAjax(`http://api.giphy.com/v1/gifs/search?api_key=FKJbsC9pbWTFIuby5WHvippAkkbIAIsH&q=${e.target.value}&limit=40`);
+        var retrievedImgs = await doAjax(`https://api.giphy.com/v1/gifs/search?api_key=FKJbsC9pbWTFIuby5WHvippAkkbIAIsH&q=${e.target.value}&limit=40`);
 
         $("#giphyLoadingContainer").empty();
         var loadingArea = $("#giphyLoadingContainer");
