@@ -1,0 +1,68 @@
+body{
+    background-image: url("../assets/images/cupcakes.JPG");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#buttonDestinationContainer{
+    max-width: 80%;
+    max-height: 25%;
+    height: 15%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+
+#giphyLoadingContainer{
+    max-width: 80%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#homer{
+    max-width: 15%;
+    max-height: 15% ;
+}
+
+#pageGrid{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+
+#searchAreaInput{
+    width: auto;
+}
+#searchAreaBtn{
+    margin: 5px auto;
+}
+#searchAndHomer{
+    display: block;
+}
+.giphyBtn{
+    margin: 5px;
+    background-color: white;
+    color: black;
+    border: solid blue 1px ;
+    border-radius: 10px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.giphyBtn:hover{
+
+    border-width: thick;
+    border-color: lightpink;
+    font-weight: bold;
+    color:coral;
+    font-size: larger;
+}
+
+.card{
+    margin: 5px;
+    background-color:rgba(255,255,255, 0.5);
+
+}
+
+
+
